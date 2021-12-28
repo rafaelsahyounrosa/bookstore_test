@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bookstore"
+version = "0.1.0"
+description = "Bookstore API (EBAC)"
+authors = ["Rafael Sahyoun Rosa <83467259+rafaelsahyounrosa@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+factory-boy = "^3.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
