@@ -8,6 +8,7 @@ authors = ["Rafael Sahyoun Rosa <83467259+rafaelsahyounrosa@users.noreply.github
 python = "^3.9"
 Django = "^4.0"
 django-rest-framework = "^0.1.0"
+django-extensions = "^3.1.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
